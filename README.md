@@ -70,18 +70,18 @@ Below are the core charts produced during exploratory analysis. Full-resolution 
 
 - Sanctioned / Released / Utilized by Financial Year
 
-	![Sanctioned/Released/Utilized by FY](reports/figures/sanctioned_released_utilized_by_fy.png)
+	![Sanctioned/Released/Utilized by FY](./government-scheme-analytics/reports/figures/sanctioned_released_utilized_by_fy.png)
 
 - Distribution of Fund Utilization Ratio
 
-	![Utilization Ratio Distribution](reports/figures/utilization_ratio_distribution.png)
+	![Utilization Ratio Distribution](./government-scheme-analytics/reports/figures/utilization_ratio_distribution.png)
 
 - Top 6 Schemes by Sanctioned Amount (pie)
 
-	![Top Schemes by Sanctioned Amount](reports/figures/top_schemes_pie.png)
+	![Top Schemes by Sanctioned Amount](./government-scheme-analytics/reports/figures/top_schemes_pie.png)
 
 - Top 10 States by Sanctioned Amount
 
-	![Top States by Sanctioned Amount](reports/figures/top_states_sanctioned.png)
+	![Top States by Sanctioned Amount](./government-scheme-analytics/reports/figures/top_states_sanctioned.png)
 
 
