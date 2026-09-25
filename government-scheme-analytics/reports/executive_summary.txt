@@ -1,0 +1,18 @@
+Executive Summary - Government Scheme Fund Analytics
+
+Dataset: Synthetic government fund utilization records (1,000 rows; financials, physical targets, beneficiaries).
+
+Top findings:
+- Average fund utilization by financial year ~68% (see reports/financial_year_summary.csv).
+- Top-funded schemes: Jal Jeevan Mission; Swachh Bharat Mission - Gramin; National Health Mission; PM Kisan Samman Nidhi; PM Awas Gramin (see reports/top_schemes_by_sanctioned.csv).
+- States with largest sanctioned totals: West Bengal, Rajasthan, Tamil Nadu, Kerala, Bihar (see reports/state_funding_summary.csv).
+- Strong correlation between sanctioned and released amounts (Pearson ~0.93). Utilization ratio correlates with physical and beneficiary achievement (Spearman up to ~0.96).
+- Outliers flagged: records with unusually high or zero utilization relative to releases; see reports/outliers.csv for reconciliation.
+
+Action items:
+1. Review outliers in reports/outliers.csv and validate with supporting documents.
+2. Reconcile large unutilized balances for leading states.
+3. Use data/processed/government_scheme_features.csv as the fact table for BI models and SQL loads.
+
+Notes:
+- Data is synthetic and for illustrative/educational use only.

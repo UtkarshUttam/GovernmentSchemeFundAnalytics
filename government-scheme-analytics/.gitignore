@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+data/processed/
+outputs/
+.vscode/
+.ipynb_checkpoints/
+environment.yml
+env/
+venv/
+*.sqlite
